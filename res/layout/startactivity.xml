@@ -1,0 +1,99 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:layout_width="match_parent"  android:background="@drawable/layoutbackup"
+    android:layout_height="match_parent">
+<TableLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+             android:background="@drawable/layoutbackup"
+            android:layout_height="match_parent"
+            
+            android:shrinkColumns="*"  android:stretchColumns="*" >
+            <TableRow
+                            android:layout_height="wrap_content"
+                            android:layout_width="fill_parent"
+                            android:gravity="center_horizontal">
+                            <TextView
+        android:layout_width="240dp"
+        android:layout_height="35dp"
+        android:paddingLeft="10dp"
+        android:gravity="center_horizontal"
+        android:paddingTop="10dp"
+        android:text="Enter no. of customer to find probability"/>
+</TableRow>
+            <TableRow
+                            android:layout_height="wrap_content"
+                            android:layout_width="fill_parent"
+                            android:gravity="center_horizontal">
+                            
+    <EditText
+        android:id="@+id/probedittext"
+        android:layout_width="244dp"
+        android:layout_height="35dp"
+        android:layout_weight="0.53"
+        android:gravity="center_horizontal"
+        android:textColor="#000000"
+        android:inputType="number"
+        android:background="@drawable/backup">       
+    </EditText>
+</TableRow>
+<TableRow
+                            android:layout_height="wrap_content"
+                            android:layout_width="fill_parent"
+                            android:gravity="center_horizontal">
+                            <TextView
+        android:layout_width="240dp"
+        android:layout_height="35dp"
+        android:paddingLeft="10dp"
+        android:gravity="center_horizontal"
+        android:paddingTop="10dp"
+        
+        android:id="@+id/prob"/>
+</TableRow>
+<TableRow
+                            android:layout_height="wrap_content"
+                            android:layout_width="fill_parent"
+                            android:gravity="center_horizontal"
+                             android:background="@drawable/layoutbackup"
+                            >
+          <Button
+                        android:text="Touch here to find  probability"
+                        android:id="@+id/button1"
+                          android:layout_width="300dp"
+                         android:background="@drawable/backup"
+                        android:layout_height="wrap_content" 
+                         
+                    />
+</TableRow>
+<TableRow
+                            android:layout_height="wrap_content"
+                            android:layout_width="fill_parent"
+                            android:gravity="center_horizontal">
+                            <TextView
+        android:layout_width="240dp"
+        android:layout_height="35dp"
+        android:paddingLeft="10dp"
+        android:gravity="center_horizontal"
+        android:paddingTop="10dp"
+        android:text=""/>
+</TableRow>
+
+<TableRow
+                            android:layout_height="wrap_content"
+                            android:layout_width="fill_parent"
+                            android:gravity="center_horizontal"
+                             android:background="@drawable/layoutbackup"
+                            >
+          <Button
+                        android:text="Touch for Other measures"
+                        android:id="@+id/button2"
+                          android:layout_width="300dp"
+                         android:background="@drawable/backup"
+                        android:layout_height="wrap_content" 
+                         
+                    />
+</TableRow>
+
+
+
+</TableLayout>
+</ScrollView>

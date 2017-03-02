@@ -1,0 +1,166 @@
+<TableLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/layoutbackup"
+            android:shrinkColumns="*"  android:stretchColumns="*" >
+<TableRow
+                            android:layout_height="wrap_content"
+                            android:layout_width="fill_parent"
+                             android:background="@drawable/backup"
+                            android:gravity="center_horizontal">
+                            <TextView
+        android:layout_width="240dp"
+        android:layout_height="35dp"
+        android:paddingLeft="10px"
+        android:paddingTop="10px"
+        
+        android:text="Avg no of unit in the system" />
+
+    <TextView
+        android:id="@+id/unitinsystem"
+        android:layout_width="244dp"
+        android:layout_height="35dp"
+        android:layout_weight="0.53"
+   />
+</TableRow>
+<TableRow  android:layout_height="wrap_content"
+     android:background="@drawable/backup"
+                            android:layout_width="fill_parent"
+                            android:gravity="center_horizontal">
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:text="Avg no of unit in the queue" />
+
+        <TextView
+        android:id="@+id/unitinqueue"
+        android:layout_width="244dp"
+        android:layout_height="35dp"
+        android:layout_weight="0.53"
+       />
+        </TableRow>
+    <TableRow
+         android:background="@drawable/backup"
+                            android:layout_height="wrap_content"
+                            android:layout_width="fill_parent"
+                            android:gravity="center_horizontal">
+    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Avg time span in the system"
+                        android:paddingTop="10px"
+                        />
+       <TextView
+        android:id="@+id/timeinsystem"
+        android:layout_width="244dp"
+        android:layout_height="35dp"
+        android:layout_weight="0.53"
+       />    
+    
+    
+    
+</TableRow>
+
+
+<TableRow
+                            android:layout_height="wrap_content"
+                            android:layout_width="fill_parent"
+                             android:background="@drawable/backup"
+                            android:gravity="center_horizontal">
+       
+    
+     <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Avg time span in the queue"
+                        android:paddingTop="10px"
+                        />
+        <TextView
+        android:id="@+id/timeinqueue"
+        android:layout_width="244dp"
+        android:layout_height="35dp"
+        android:layout_weight="0.53"
+       />  
+</TableRow>
+<TableRow
+                            android:layout_height="wrap_content"
+                            android:layout_width="fill_parent"
+                            android:gravity="center_horizontal"
+                             android:background="@drawable/backup">
+        <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Avg no. of busy server"
+                        android:paddingTop="10px"
+                        />
+          <TextView
+        android:id="@+id/busyserver"
+        android:layout_width="244dp"
+        android:layout_height="35dp"
+        android:layout_weight="0.53"
+       />  
+</TableRow>
+<TableRow
+                            android:layout_height="wrap_content"
+                            android:layout_width="fill_parent"
+                            android:gravity="center_horizontal"
+                             android:background="@drawable/backup">
+        <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Server Utilization"
+                        android:paddingTop="10px"
+                        />
+          <TextView
+        android:id="@+id/serverutilization"
+        android:layout_width="244dp"
+        android:layout_height="35dp"
+        android:layout_weight="0.53"
+       />  
+</TableRow>
+<!-- <TableRow
+                            android:layout_height="wrap_content"
+                            android:layout_width="fill_parent"
+                            android:gravity="center_horizontal">
+          <Button
+                        android:text="Proceed"
+                        android:id="@+id/Furthur"
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content" 
+                        
+                    />
+          
+          
+</TableRow>-->
+<TableRow
+                            android:layout_height="wrap_content"
+                            android:layout_width="fill_parent"
+                            android:gravity="center_horizontal">
+          <Button
+                        
+                        android:id="@+id/StartAgain"
+                        android:layout_width="300dp"
+                         android:background="@drawable/backup"
+                        android:layout_height="wrap_content" 
+                        android:text="StartAgain" 
+                    />
+          </TableRow>
+
+          <TableRow
+                            android:layout_height="wrap_content"
+                            android:layout_width="fill_parent"
+                            android:gravity="center_horizontal">
+          <Button
+                        
+                        android:id="@+id/Exit"
+                        android:layout_width="300dp"
+                         android:background="@drawable/backup"
+                        android:layout_height="wrap_content" 
+                        android:text="Exit" 
+                    />
+          </TableRow>
+
+
+</TableLayout>

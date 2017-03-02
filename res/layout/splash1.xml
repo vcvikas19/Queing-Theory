@@ -1,0 +1,77 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:layout_width="match_parent"  android:background="@drawable/layoutbackup"
+    android:layout_height="match_parent">
+     <!--   xmlns:android="http://schemas.android.com/apk/res/android"    -->
+<TableLayout
+         
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/layoutbackup"
+            android:shrinkColumns="*"  android:stretchColumns="*" >
+           <TableRow>
+                <TextView
+        android:layout_width="240dp"
+        android:layout_height="35dp"
+        android:paddingLeft="10px"
+        android:paddingTop="10px"
+        android:gravity="center_horizontal"
+         />
+                
+            </TableRow>
+            
+          
+<TableRow
+                            android:layout_height="wrap_content"
+                            android:layout_width="fill_parent"
+                          
+                            >
+                            <TextView
+        android:layout_width="240dp"
+        android:layout_height="35dp"
+        android:paddingLeft="10px"
+        android:paddingTop="10px"
+        android:gravity="center_horizontal"
+        android:text="Queing Theory Android Application" />
+</TableRow>
+<ImageView
+    
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/logo_mid" />
+ 
+
+<TableRow
+                            android:layout_height="wrap_content"
+                            android:layout_width="fill_parent"
+                            
+                            >
+                            <TextView
+        android:layout_width="240dp"
+        android:layout_height="35dp"
+        android:paddingLeft="10px"
+        android:paddingTop="10px"
+        android:gravity="center_horizontal"
+        android:text="Developed by :" />
+</TableRow>
+<TableRow
+                            android:layout_height="wrap_content"
+                            android:layout_width="fill_parent"
+                             
+                            >
+                            <TextView
+        android:layout_width="240dp"
+        android:layout_height="35dp"
+        android:paddingLeft="10px"
+        android:paddingTop="10px"
+        android:gravity="center_horizontal"
+        android:text="Vikas Chauhan" />
+</TableRow>
+
+
+
+
+</TableLayout>
+          
+          
+</ScrollView>
+

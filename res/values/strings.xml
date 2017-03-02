@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Queing</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="Enter_no._of_server">Enter no. of server</string>
+    <string name="Enter_capicity_of_system">Enter capicity of system</string>
+    <string name="Enter_0_for_infinite_capicity">Enter 0 for infinite capicity</string>
+    <string name="Please_enter_Population_of_System">Please enter Population of System</string>
+    <string name="Enter_0_for_infinite_Population">Enter 0 for infinite Population</string>
+    <string name="Enter_arrival_rate">Enter arrival rate</string>
+    <string name="Enter_service_rate">Enter service rate</string>
+    <string name="Touch_to_Proceed">Touch to Proceed</string>
+    
+    
+    
+    
+    
+ 
+    
+
+</resources>

@@ -1,0 +1,174 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:layout_width="match_parent"  android:background="@drawable/layoutbackup"
+    android:layout_height="match_parent">
+<TableLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+             android:background="@drawable/layoutbackup"
+            android:layout_height="match_parent"
+            
+            android:shrinkColumns="*"  android:stretchColumns="*" >
+            <TableRow
+                            android:layout_height="wrap_content"
+                            android:layout_width="fill_parent"
+                            android:gravity="center_horizontal">
+                            <TextView
+        android:layout_width="240dp"
+        android:layout_height="35dp"
+        android:paddingLeft="10dp"
+        android:gravity="center_horizontal"
+        android:paddingTop="10dp"
+        android:text="@string/Enter_no._of_server"/>
+</TableRow>
+            <TableRow
+                            android:layout_height="wrap_content"
+                            android:layout_width="fill_parent"
+                            android:gravity="center_horizontal">
+                            
+    <EditText
+        android:id="@+id/server"
+        android:layout_width="244dp"
+        android:layout_height="35dp"
+        android:layout_weight="0.53"
+        android:gravity="center_horizontal"
+        android:textColor="#000000"
+        android:background="@drawable/backup"
+        android:inputType="number"
+      
+        
+       
+       >
+
+       
+    </EditText>
+</TableRow>>
+<TableRow
+                            android:layout_height="wrap_content"
+                            android:layout_width="fill_parent"
+                            android:gravity="center_horizontal">
+                            <TextView
+        android:layout_width="240dp"
+        android:layout_height="35dp"
+        android:paddingLeft="10dp"
+        android:gravity="center_horizontal"
+        android:paddingTop="10dp"
+        android:text="@string/Enter_capicity_of_system"
+        />
+</TableRow>
+
+<TableRow>
+    
+    <EditText
+            android:id="@+id/capacity"
+            android:layout_width="244dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.34" 
+            android:gravity="center_horizontal"
+            android:textColor="#000000"
+            android:background="@drawable/backup"
+             android:inputType="number"
+            android:hint="@string/Enter_0_for_infinite_capicity"/>
+</TableRow>
+
+<TableRow
+                            android:layout_height="wrap_content"
+                            android:layout_width="fill_parent"
+                            android:gravity="center_horizontal">
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:paddingTop="10dp"
+            android:text="@string/Please_enter_Population_of_System" />
+
+        
+    
+</TableRow>
+<TableRow >
+      <EditText
+         android:id="@+id/population"
+         android:layout_width="244dp"
+         android:layout_height="wrap_content"
+         android:hint="@string/Enter_0_for_infinite_Population"
+         android:background="@drawable/backup"
+         android:textColor="#000000"
+          android:inputType="number"
+         android:gravity="center_horizontal"/>
+         
+    
+    
+    
+</TableRow>
+ <TableRow
+                            android:layout_height="wrap_content"
+                            android:layout_width="fill_parent"
+                            android:gravity="center_horizontal">
+    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Enter_arrival_rate"
+                        android:paddingTop="10dp"
+                        android:gravity="center_horizontal"
+                        />
+        
+    
+    
+    
+</TableRow>
+<TableRow >
+   <EditText
+         android:id="@+id/arrival"
+         android:layout_width="244dp"
+         android:layout_height="wrap_content"
+         android:gravity="center_horizontal"
+         android:background="@drawable/backup"
+         android:textColor="#000000"
+         android:inputType="number|numberDecimal"
+         />  
+    
+    
+</TableRow> 
+<TableRow
+                            android:layout_height="wrap_content"
+                            android:layout_width="fill_parent"
+                            android:gravity="center_horizontal">
+    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Enter_service_rate"
+                        android:paddingTop="10dp"
+                        android:gravity="center_horizontal"
+                        />
+</TableRow>
+<TableRow>
+     <EditText
+         android:id="@+id/departure"
+         android:layout_width="244dp"
+         android:layout_height="wrap_content"
+         android:background="@drawable/backup"
+         android:textColor="#000000"
+         android:gravity="center_horizontal"
+         android:inputType="number|numberDecimal"
+         />
+</TableRow>
+  
+<TableRow
+                            android:layout_height="wrap_content"
+                            android:layout_width="fill_parent"
+                            android:gravity="center_horizontal"
+                             android:background="@drawable/layoutbackup"
+                            >
+          <Button
+                        android:text="@string/Touch_to_Proceed"
+                        android:id="@+id/button"
+                          android:layout_width="300dp"
+                         android:background="@drawable/backup"
+                        android:layout_height="wrap_content" 
+                         
+                    />
+</TableRow>
+
+
+
+</TableLayout>
+</ScrollView>
